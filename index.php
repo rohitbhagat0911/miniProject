@@ -1,26 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-           <link rel="stylesheet" href="index.css"> 
-           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">       
-</head>
-<body>
 
-            <?php include_once 'banner.php';
-             include_once 'header.php';?>
+
+         <?php include_once 'upperindex.php' ?>
           
-          <div class="content-pos">
+           <div class="content-pos">
           <h1>Home</h1>
+          <h2>Home</h2>
+          <h1>Home</h1>
+          <h2>Home</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quia natus iusto? Accusamus esse consequuntur nam, quis obcaecati laborum distinctio dicta veniam! Officiis qui vel vitae voluptatum aperiam molestias eveniet.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quibusdam, doloremque fuga officiis error quae, quo amet inventore totam corrupti voluptates. Suscipit adipisci tempore velit molestias necessitatibus ipsa voluptatem est!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit beatae quos magni excepturi, numquam et voluptate qui veniam molestias quod soluta facilis, officiis ipsa placeat minus, iusto atque veritatis cum!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloribus modi beatae error cupiditate perspiciatis fugiat perferendis ad consequuntur quaerat placeat eius quia culpa esse ratione, ab at et soluta!</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quia natus iusto? Accusamus esse consequuntur nam, quis obcaecati laborum distinctio dicta veniam! Officiis qui vel vitae voluptatum aperiam molestias eveniet.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quibusdam, doloremque fuga officiis error quae, quo amet inventore totam corrupti voluptates. Suscipit adipisci tempore velit molestias necessitatibus ipsa voluptatem est!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit beatae quos magni excepturi, numquam et voluptate qui veniam molestias quod soluta facilis, officiis ipsa placeat minus, iusto atque veritatis cum!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloribus modi beatae error cupiditate perspiciatis fugiat perferendis ad consequuntur quaerat placeat eius quia culpa esse ratione, ab at et soluta!</p>
+          
+           </div>
 
-          </div>
 
+   <?php include_once 'lowerindex.php' ?>
 
-		  <?php include_once 'footer.php'; ?> 
-         
-  
-</body>
-</html>
+          
