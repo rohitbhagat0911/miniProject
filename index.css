@@ -12,7 +12,7 @@ body {
 
 .banner {
   overflow: hidden;
-  z-index: 3;
+  
 
 }
 
@@ -27,6 +27,7 @@ background-repeat: no-repeat;
 background-size: auto;
 margin-left: 0vw;
 object-fit: cover;
+z-index: 1;
 
    
 }
@@ -45,16 +46,18 @@ object-fit: cover;
 /* Banner End */
 
 
-a {
-  color: #fff !important;
+.menu-link {
+  color: #fff;
 }
 
 /* header */
 
 .header {
+  background: rgb(138,232,54);
+background: linear-gradient(90deg, rgba(138,232,54,1) 0%, rgba(54,218,81,1) 76%, rgba(11,177,86,1) 99%);
   
-  background: rgb(202,99,228);
-background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%, rgba(166,56,185,1) 99%);
+  /* background: rgb(202,99,228);
+background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%, rgba(166,56,185,1) 99%); */
   box-shadow: 1px 1px 4px 0 rgba(209, 197, 197, 0.1);
   position: fixed;
   width: 100%;
@@ -83,7 +86,7 @@ background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #ab69b4;
+  background-color: rgb(138,232,54);
   border-radius: 12px;
 }
 
@@ -116,10 +119,10 @@ background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%
 .header .menu-icon .nav-icon {
   background: #333;
   display: block;
-  height: 2px;
+  height: 2.1px;
   position: relative;
   transition: background .2s ease-out;
-  width: 18px;
+  width: 22px;
 }
 
 .header .menu-icon .nav-icon:before,
@@ -131,6 +134,7 @@ background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%
   position: absolute;
   transition: all .2s ease-out;
   width: 100%;
+  
 }
 
 .header .menu-icon .nav-icon:before {
@@ -146,8 +150,8 @@ background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%
 .header .menu-btn {
   display: none;
 }
-
-.header .menu-btn:checked ~ .menu {
+/*  For Model Change */
+/* .header .menu-btn:checked ~ .menu {
   max-height: 740px;
 }
 
@@ -163,8 +167,8 @@ background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%
 .header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   transform: rotate(45deg);
   top:0;
-}
-
+} */
+/*  */
 
 /* 48em = 768px @ 16pt font */
 
@@ -189,8 +193,9 @@ background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%
 /*  */
 
 .bg-footer {
-  background: rgb(202,99,228);
-  background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%, rgba(166,56,185,1) 99%);
+  /* background: rgb(202,99,228);
+  background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%, rgba(166,56,185,1) 99%); */
+  background: #36da51;
   padding: 50px 0 30px;
 }
 .footer-heading {
@@ -198,7 +203,7 @@ background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%
 }
 
 .footer-link a {
-  color: #acacac;
+  color: #fff;
   line-height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -209,7 +214,7 @@ background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%
 }
 
 .contact-info {
-  color: #acacac;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -242,7 +247,7 @@ background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%
 
 
 .footer-alt {
-  color: #acacac;
+  color: #fff;
 }
 
 .footer-heading {
@@ -266,8 +271,7 @@ background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%
   color: #fff;
   float: none;
   text-transform: uppercase;
-  
-
+ 
 }
 .pos {
  
@@ -280,3 +284,49 @@ background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%
 
 
 /*  */
+
+
+  /*  */
+
+.content-pos {
+   display: block;
+   margin-top: 18vh;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .content-pos {
+    display: block;
+    margin-top: 18vh;
+ }
+} */
+
+
+.content-align {
+  text-align: center;
+ 
+}
+
+.content-body {
+  margin: auto;
+  border: 0px solid whitesmoke;
+  width:  80%;
+  background-color: white;
+  margin-top: 4%;
+  text-align: center;
+  letter-spacing: 0.0625em;
+  word-spacing: 0.3em;
+  line-height: 1.6;
+  
+}
+
+
+.p-spcaing {
+  padding-top: 1em;
+  
+}
+
+  /*  */
+
+  .author-link {
+    color: none !important ;
+  }

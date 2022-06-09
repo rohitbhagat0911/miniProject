@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="">
+                    <div>
                         <h6 class="pos" class="footer-heading" >Information</h6>
                         <ul class="list-unstyled footer-link mt-4">
                             <li><a href="">abc</a></li>
@@ -50,7 +50,7 @@
                                 <li class="list-inline-item"><a href="#"><i class="fab facebook footer-social-icon fa-facebook-f"></i></i></a></li>
                                 <li class="list-inline-item"><a href="#"><i class="fab twitter footer-social-icon fa-twitter"></i></i></a></li>
                                 <li class="list-inline-item"><a href="#"><i class="fab google footer-social-icon fa-google"></i></i></a></li>
-                                <!-- <li class="list-inline-item"><a href="#"><i class="fab apple footer-social-icon fa-apple"></i></i></a></li> -->
+                                <!-- <li class="list-inline-item"><a href="#"><i class="fab instagram footer-social-icon fa-insta"></i></i></a></li> -->
                             </ul>
                         </div>
                     </div>
