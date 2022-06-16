@@ -1,4 +1,4 @@
-<?php include_once 'upperstatement.php'; ?>
+<?php include_once './components/upperstatement.php'; ?>
 
 
 <?php
@@ -54,4 +54,4 @@
                     
                    
                      
-                     <?php include_once 'lowerstatement.php'; ?>     
+                     <?php include_once './components/lowerstatement.php'; ?>     

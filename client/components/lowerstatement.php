@@ -4,6 +4,6 @@
          
          
                    </div>
-                   <script src="toogle.js"></script>
+                   <script src="./components/toogle.js"></script>
           <?php include_once 'lowerindex.php' ?>
     

@@ -1,4 +1,4 @@
-<?php include_once 'upperevent.php'; ?>
+<?php include_once './components/upperevent.php'; ?>
 
 
 
@@ -31,4 +31,4 @@
                    
 
 
-<?php include_once 'lowerevent.php'; ?>
+<?php include_once './components/lowerevent.php'; ?>

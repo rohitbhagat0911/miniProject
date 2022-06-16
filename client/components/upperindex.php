@@ -18,5 +18,5 @@
 </head>
 <body>
 
-<?php include_once 'banner.php';
-             include_once 'header.php';?>
+<?php include_once './components/banner.php';
+             include_once './components/header.php';?>

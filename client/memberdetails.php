@@ -1,4 +1,4 @@
-<?php include_once 'upperdetails.php'; ?>
+<?php include_once './components/upperdetails.php'; ?>
 
 
 <?php
@@ -162,7 +162,7 @@
                     
                    
                      
-                     <?php include_once 'lowerdetails.php'; ?>     
+                     <?php include_once './components/lowerdetails.php'; ?>     
 
          
              

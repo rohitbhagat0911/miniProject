@@ -28,7 +28,7 @@
         <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
         <ul class="menu">
             <li><a class="menu-link" href="./">Home</a></li>
-            <li><a class="menu-link" href="./Senior Player Statement.php">Founders Desk
+            <li><a class="menu-link" href="./seniorplayerstatement.php">Founders Desk
                     
             
             </a>
@@ -54,8 +54,8 @@
             
           </li>
             <!-- <li><a class="menu-link" href="./Senior Player Statement.php">Statement</a></li> -->
-            <li><a class="menu-link" href="./Member Details.php">Member Details</a></li>
-            <li><a class="menu-link" href="./Events.php">Events</a></li>
+            <li><a class="menu-link" href="./memberdetails.php">Member Details</a></li>
+            <li><a class="menu-link" href="./events.php">Events</a></li>
             
         </ul>
     </header>
