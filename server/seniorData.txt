@@ -1,0 +1,1 @@
+src="./asset/event/<?php echo $row_eData['event']; ?>/<?php echo $row_eData['pdf_name']; ?>.pdf"
