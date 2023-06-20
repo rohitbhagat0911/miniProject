@@ -38,7 +38,7 @@
        <ul class="list-inline">
             <li class="list-inline-item"><a href="https://www.linkedin.com/in/rohitbhagat09/" target="_blank"><i class="fa-brands fa-linkedin-in icon-dev"></i></a></li>
             <li class="list-inline-item"><a href="https://github.com/rohitbhagat0911" target="_blank"><i class="fa-brands fa-github icon-dev"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.instagram.com/rohitbhagat_09/" target="_blank"><i class="fa-brands fa-instagram icon-dev"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/rohit_bhagat09/" target="_blank"><i class="fa-brands fa-instagram icon-dev"></i></a></li>
          </ul>
       </div>
 </div>

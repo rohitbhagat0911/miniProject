@@ -4,41 +4,7 @@
    <footer class="section bg-footer">
         <div class="container">
             <div class="row">
-                <!-- <div class="col-lg-3">
-                    <div>
-                        <h6 class="pos" class="footer-heading" >Information</h6>
-                        <ul class="list-unstyled footer-link mt-4">
-                            <li><a href="">abc</a></li>
-                            <li><a href="">abc</a></li>
-                            <li><a href="">abc</a></li>
-                            <li><a href="">abc</a></li>
-                        </ul>
-                    </div>
-                </div> -->
-
-                <!-- <div class="col-lg-3">
-                    <div class="">
-                        <h6 class="pos" class="footer-heading">Ressources</h6>
-                        <ul class="list-unstyled footer-link mt-4">
-						<li><a href="">abc</a></li>
-                            <li><a href="">abc</a></li>
-                            <li><a href="">abc</a></li>
-                            <li><a href="">abc</a></li>
-                        </ul>
-                    </div>
-                </div> -->
-
-                <!-- <div class="col-lg-2">
-                    <div class="">
-                        <h6 class="pos" class="footer-heading">Help</h6>
-                        <ul class="list-unstyled footer-link mt-4">
-						<li><a href="">abc</a></li>
-                            <li><a href="">abc</a></li>
-                            <li><a href="">abc</a></li>
-                            <li><a href="">abc</a></li>
-                        </ul>
-                    </div>
-                </div> -->
+              
 
                 <div class="text-center">
                     <div class="">

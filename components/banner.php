@@ -1,6 +1,6 @@
 <div class="banner">
            
-           <img class="banner-bg" src="./asset/banner.jpg" alt="Banner">
+           <img loading="lazy" class="banner-bg" src="./asset/banner.jpg" alt="Banner">
             <div>
                 <div  class="banner-txt">
 
@@ -11,7 +11,7 @@
            
            <div>
            <a href="./">
-               <img class="logo-img" src="./asset/logo.png" alt="Logo">
+               <img loading="lazy" class="logo-img" src="./asset/logo.png" alt="Logo">
            </a>
            </div>
            

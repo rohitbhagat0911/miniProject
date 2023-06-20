@@ -6,6 +6,7 @@ if(isset($_POST["iusubmit"])){
     $status = $statusMsg = ''; 
 
   include_once 'db.php';
+  require_once 'imageCompression.php';
 
     $title = $_REQUEST['title'];
     $imageid = $_REQUEST['imageid'];
@@ -13,16 +14,17 @@ if(isset($_POST["iusubmit"])){
 
 
     $status = 'error'; 
-    if(!empty($_FILES["image"]["name"])) { 
-        // Get file info 
-        $fileName = basename($_FILES["image"]["name"]); 
-        $fileType = pathinfo($fileName, PATHINFO_EXTENSION); 
-       
-        // Allow certain file formats 
-        $allowTypes = array('jpg','png','jpeg'); 
-        if(in_array($fileType, $allowTypes)){ 
-            $image = $_FILES['image']['tmp_name']; 
-            $imgContent = addslashes(file_get_contents($image)); 
+    if (!empty($_FILES["image"]["name"])) {
+        // Get file info
+        $fileName = $_FILES["image"]["tmp_name"];
+        $fileType = pathinfo($_FILES["image"]["name"], PATHINFO_EXTENSION);
+
+        // Allow certain file formats
+        $allowTypes = array('jpg', 'png', 'jpeg');
+        if (in_array($fileType, $allowTypes)) {
+            $uploaderSeniorPlayerImage = new ImageCompressor();
+            $uploaderSeniorPlayerImage->compressImage($fileName);
+            $imgContent = addslashes($uploaderSeniorPlayerImage->imageData); 
          
             // Insert image content into database 
 

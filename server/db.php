@@ -1,6 +1,6 @@
 <?php 
 
-$db = new mysqli("localhost", "root", "", "yss");
+$db = new mysqli("localhost", "youngshuttlersofsikkim", "GGaV53@pdsrmqmU", "yssdb");
 
 if ($db->connect_error) {
   

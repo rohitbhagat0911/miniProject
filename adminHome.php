@@ -24,31 +24,14 @@ if ((isset($_SESSION['isLoggedIn']) && $_SESSION['username']) == true):
             </div>
         </ul>
 
-        <!-- <form action="<?php //echo $_SERVER['PHP_SELF'];?>" method="post">
-    
-       
-        <input type="submit" value="ADD" name="add" id="sidebarCollapse" class="btn btn-info">
-        <input type="submit" value="Update" name="upd" id="sidebarCollapse" class="btn btn-info">
-                        
-                        
-                    
-    
-    </form> -->
+      
 
    
     </nav>
 
             <?php 
                    
-// if ($_SERVER["REQUEST_METHOD"] == "POST") {
-//     $_SESSION['add'] = $_REQUEST['add'];
-//     $_SESSION['update'] = $_REQUEST['upd'];
-//     if ($_SESSION['add']) {
-//         include_once 'dataHandle/addForm.php';
-//     } elseif ($_SESSION['update']) {
-//         include_once 'dataHandle/updateForm.php';
-//     }
-// } 
+
             ?>
             
 
@@ -61,18 +44,7 @@ if ((isset($_SESSION['isLoggedIn']) && $_SESSION['username']) == true):
                         case 'content':
                             include_once 'dataHandle/homeContent.php';
                             break;
-                        // case 'update':
-                        //     include_once 'dataHandle/updateMember.php';
-                        //     break;
-                        // case 'updates':
-                        //     include_once 'dataHandle/updateForm.php';
-                        //     break;                            
-                        // case 'member':
-                        //     include_once 'dataHandle/updateForm.php';
-                        //     break;
-                        // case 'founder':
-                        //     include_once 'dataHandle/updateForm.php';
-                        //     break;
+                       
                         case 'footer':
                             include_once 'dataHandle/homeFooter.php';
                             break;

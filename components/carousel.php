@@ -12,12 +12,7 @@
 
     
     
-    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li> -->
+   
   
   </ol>
 
@@ -25,13 +20,12 @@
   <div  class="carousel-inner" >
 
   <div class="carousel-item active">
-                       <!-- <img class="pass-photo" src="data:image/jpg;charset=utf8;base64,<?php //echo base64_encode($row_mData['member_photo']); ?>" /> -->
              <?php if($res_imgC != FALSE && $res_imgC->num_rows > 0) { 
               $row_imgik = $res_imgC->fetch_assoc();
               } ?>
                   
         
-          <img class="img-size" class="d-block w-100" src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row_imgik['img_file']); ?>">
+          <img class="img-size" class="d-block w-100" src="data:image/png;base64,<?php echo base64_encode($row_imgik['img_file']); ?>" loading="lazy">
    
       
       </div>
@@ -42,7 +36,7 @@
                     while ($row_imgi = $res_imgC->fetch_assoc()) {
                         ?>
                        <div class="carousel-item">
-                       <img class="img-size" class="d-block w-100" src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row_imgi['img_file']); ?>">
+                       <img class="img-size" class="d-block w-100" src="data:image/png;base64,<?php echo base64_encode($row_imgi['img_file']); ?>" loading="lazy">
    
     </div>
                         <?php
@@ -51,37 +45,7 @@
                 
                 ?> 
 
-    <!-- <div class="carousel-item active">
-      <img class="img-size" class="d-block w-100" src="./asset/carousel/first slide.jpg" alt="First slide">
-    </div>
-
-    <div class="carousel-item">
-      <img  class="img-size" class="d-block w-100" src="./asset/carousel/second slide.jpg" alt="Second slide">
-    </div>
-
-    <div class="carousel-item">
-      <img  class="img-size" class="d-block w-100" src="./asset/carousel/third slide.jpg" alt="Third slide">
-    </div>
-
-    <div class="carousel-item">
-      <img  class="img-size" class="d-block w-100" src="./asset/carousel/fourth slide.jpeg" alt="Fourth slide">
-    </div>
-
-    <div class="carousel-item">
-      <img  class="img-size" class="d-block w-100" src="./asset/carousel/fifth slide.jpeg" alt="Fifth slide">
-    </div>
-
-    <div class="carousel-item">
-      <img  class="img-size" class="d-block w-100" src="./asset/carousel/sixth slide.jpg" alt="sixth slide">
-    </div>
-
-    <div class="carousel-item">
-      <img  class="img-size" class="d-block w-100" src="./asset/carousel/seventh slide.jpg" alt="seventh slide">
-    </div>
-
-    <div class="carousel-item">
-      <img  class="img-size" class="d-block w-100" src="./asset/carousel/eighth slide.jpg" alt="eighth slide">
-    </div> -->
+    
   
   </div>
   <a style="z-index: 0; color: #36da51;" class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

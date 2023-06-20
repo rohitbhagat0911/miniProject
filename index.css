@@ -155,13 +155,7 @@ z-index: 2 ;
   
 }
 
-/* .banner-txt {
-  display: block;
-  position: absolute;
-  top: 1em;
-  left: auto;
-  
-}  */
+
 
 
 
@@ -446,12 +440,7 @@ background: linear-gradient(90deg, rgba(202,99,228,1) 0%, rgba(226,34,227,1) 76%
 
 }
 
-/* @media only screen and (max-width: 600px) {
-  .content-pos {
-    display: block;
-    margin-top: 18vh;
- }
-} */
+
 
 
 .content-align {
@@ -672,12 +661,7 @@ a.article:hover {
   
 }
 
-/* ul li:visited {
-  color: lightblue;
-  transition: color .4s linear !important;
-}
 
- */
 
 ul li:hover ul.dropdown-c {
   display: block; /* Display the dropdown */
@@ -761,30 +745,6 @@ ul li ul.dropdown-c li {
   border-radius: 4px;
 }
 
-
-
-/* .pass-photo2{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 18em;
-  width: 28em;
-  padding-left: 1em;
-  padding-right: 1em;
-  object-fit: cover;
-  margin-bottom: 2em;
-  margin-top: 2em;
-  object-fit: cover;
-  object-position: center;
-  
-} */
-
-/* .pass-photo2{
-  box-shadow:
-  rgb(40, 40, 40, 0.1) 0px 2px 3px,
-  rgb(20, 20, 20, 0.2) 0px 5px 8px,
-  rgb(0, 0, 0, 0.25) 0px 10px 12px;
-} */
 
 .overlay-gallery{
   margin-bottom: 2em;
@@ -954,15 +914,6 @@ ul li ul.dropdown-c li {
 
 
 
-/* .img-gallery{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 400px !important;
-  width: 400 !important;
-  margin-bottom: 2em;
-  object-fit: cover;
-} */
 
 .pass-gal {
   display: block;
@@ -1083,8 +1034,7 @@ ul li ul.dropdown-c li {
 
 .a-photo{
   display: block;
-  /* border: 2px solid #333;
-  border-radius: 50%; */
+
   margin-left: auto;
   margin-right: auto;
   height: 16em;

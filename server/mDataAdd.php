@@ -4,8 +4,8 @@
 if(isset($_POST["admsubmit"])){ 
 
     $status = $statusMsg = ''; 
-
     include_once 'db.php';
+    require_once 'imageCompression.php';
 
     $stateid = $_REQUEST['stateid'];
     $mname = $_REQUEST['mname'];
@@ -17,16 +17,17 @@ if(isset($_POST["admsubmit"])){
     $achi = $_REQUEST['achi'];
     
     $status = 'error'; 
-    if(!empty($_FILES["image"]["name"])) { 
-        // Get file info 
-        $fileName = basename($_FILES["image"]["name"]); 
-        $fileType = pathinfo($fileName, PATHINFO_EXTENSION); 
-       
-        // Allow certain file formats 
-        $allowTypes = array('jpg','png','jpeg'); 
-        if(in_array($fileType, $allowTypes)){ 
-            $image = $_FILES['image']['tmp_name']; 
-            $imgContent = addslashes(file_get_contents($image)); 
+    if (!empty($_FILES["image"]["name"])) {
+        // Get file info
+        $fileName = $_FILES["image"]["tmp_name"];
+        $fileType = pathinfo($_FILES["image"]["name"], PATHINFO_EXTENSION);
+
+        // Allow certain file formats
+        $allowTypes = array('jpg', 'png', 'jpeg');
+        if (in_array($fileType, $allowTypes)) {
+            $uploaderMemberImage = new ImageCompressor();
+            $uploaderMemberImage->compressImage($fileName);
+            $imgContent = addslashes($uploaderMemberImage->imageData);
          
             // Insert image content into database 
 

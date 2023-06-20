@@ -19,7 +19,7 @@
 <?php 
   if(isset($row_founder["id"]) == 1){
     ?>
-    <img class="pass-photo" src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row_founder['founder_img']); ?>" />
+    <img loading="lazy" class="pass-photo" src="data:image/png;base64,<?php echo base64_encode($row_founder['founder_img']); ?>" />
     <?php
   }
 ?>

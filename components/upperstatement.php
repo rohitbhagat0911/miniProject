@@ -28,7 +28,7 @@
 
 
                      <div  class="sidebar-header">
-                         <h3>Senoir Player Statement</h3>
+                         <h3>Senior Player Statement</h3>
                      </div>
          
                      <ul class="list-unstyled components">

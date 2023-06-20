@@ -1,0 +1,80 @@
+[12-Jun-2023 08:22:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's aim and objectives was to promote badminton in the state of Sikkim. From the e' at line 1 in /home/lnrwx8jhh704/public_html/server/upContent.php:17
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/upContent.php(17): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/upContent.php on line 17
+[12-Jun-2023 08:24:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's aim and objectives was to promote badminton in the state of Sikkim. From the e' at line 1 in /home/lnrwx8jhh704/public_html/server/upContent.php:17
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/upContent.php(17): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/upContent.php on line 17
+[12-Jun-2023 08:26:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's aim and objectives was to promote badminton in the state of Sikkim. From the e' at line 1 in /home/lnrwx8jhh704/public_html/server/upContent.php:17
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/upContent.php(17): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/upContent.php on line 17
+[14-Jun-2023 14:27:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't train or play consistently for a longer time. That’s where I decided pi' at line 1 in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php:30
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php(30): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php on line 30
+[14-Jun-2023 14:28:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't train or play consistently for a longer time. That’s where I decided pi' at line 1 in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php:30
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php(30): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php on line 30
+[14-Jun-2023 14:28:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't train or play consistently for a longer time. That’s where I decided pi' at line 1 in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php:30
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php(30): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php on line 30
+[14-Jun-2023 14:30:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't train or play consistently for a longer time. That’s where I decided pi' at line 1 in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php:30
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php(30): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php on line 30
+[14-Jun-2023 14:30:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't train or play consistently for a longer time. That’s where I decided pi' at line 1 in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php:30
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php(30): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php on line 30
+[14-Jun-2023 14:32:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't train or play consistently for a longer time. That’s where I decided pi' at line 1 in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php:30
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php(30): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php on line 30
+[14-Jun-2023 14:33:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't train or play consistently for a longer time. That’s where I decided pi' at line 1 in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php:30
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php(30): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php on line 30
+[14-Jun-2023 14:33:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't train or play consistently for a longer time. That’s where I decided pi' at line 1 in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php:30
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php(30): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/seniorplayerdataadd.php on line 30
+[14-Jun-2023 14:48:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't train or play consistently for a longer time. That’s where I decided pi' at line 1 in /home/lnrwx8jhh704/public_html/server/upDataField.php:40
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/upDataField.php(40): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/upDataField.php on line 40
+[14-Jun-2023 14:59:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't train or play consistently for a longer time. That’s where I decided pi' at line 1 in /home/lnrwx8jhh704/public_html/server/upDataField.php:40
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/upDataField.php(40): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/upDataField.php on line 40
+[14-Jun-2023 15:21:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's aim and objectives was to promote badminton in the state of Sikkim. From the e' at line 1 in /home/lnrwx8jhh704/public_html/server/upContent.php:17
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/upContent.php(17): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/upContent.php on line 17
+[14-Jun-2023 15:21:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's aim and objectives was to promote badminton in the state of Sikkim. From the e' at line 1 in /home/lnrwx8jhh704/public_html/server/upContent.php:17
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/upContent.php(17): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/upContent.php on line 17
+[15-Jun-2023 10:32:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't train or play consistently for a longer time. That’s where I decided pi' at line 1 in /home/lnrwx8jhh704/public_html/server/upDataField.php:58
+Stack trace:
+#0 /home/lnrwx8jhh704/public_html/server/upDataField.php(58): mysqli->query()
+#1 {main}
+  thrown in /home/lnrwx8jhh704/public_html/server/upDataField.php on line 58

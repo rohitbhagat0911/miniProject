@@ -13,11 +13,12 @@
                <h2 class="content-align"><?php echo $row_senData['player_name']; ?></h2>
                
 
-                <img class="pass-photo" src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row_senData['player_img']); ?>" />
+                <img loading="lazy" class="pass-photo" src="data:image/png;base64,<?php echo base64_encode($row_senData['player_img']); ?>" />
                 
                     
               
                 <?php
+                echo "State ID: ". $row_senData['state_id']. "<br><br>";
                 echo $row_senData['statement']; 
                       
                 }     
