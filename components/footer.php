@@ -63,6 +63,6 @@
         </div>
 
         <div class="text-center mt-5">
-            <p class="footer-alt mb-0 f-14"><a class="developer-a" href="./developer.php" target="_blank">2022 © All Rights Reserved by Rohit Kr. Bhagat &amp; Shekhar Sharma</a></p>
+            <p class="footer-alt mb-0 f-14"><a class="developer-a" href="./developer.php" target="_blank">2022 © All Rights Reserved by Rohit Kr. Bhagat, Shekhar Sharma  &amp; Nawang Lama</a></p>
         </div>
     </footer>

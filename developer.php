@@ -32,21 +32,21 @@
 <div class="head-dev"><p>Developer Team</p></div>
 <div class="g-dev"></div>
 <div class="developer-box" >
-<p class="developer-txt">Rohit Kr. Bhagat</p>
-<p class="subh-dev">Web Developer</p>
+<p class="developer-txt">Rohit Bhagat</p>
+<p class="subh-dev">Software Developer</p>
       <div class="logo-dev">
        <ul class="list-inline">
             <li class="list-inline-item"><a href="https://www.linkedin.com/in/rohitbhagat09/" target="_blank"><i class="fa-brands fa-linkedin-in icon-dev"></i></a></li>
             <li class="list-inline-item"><a href="https://github.com/rohitbhagat0911" target="_blank"><i class="fa-brands fa-github icon-dev"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.instagram.com/rohit_bhagat09/" target="_blank"><i class="fa-brands fa-instagram icon-dev"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/rohitbhagat_09/" target="_blank"><i class="fa-brands fa-instagram icon-dev"></i></a></li>
          </ul>
       </div>
 </div>
 
 
 <div  class="developer-box2" >
-      <<p class="developer-txt2">Shekhar Sharma</p>
-<p class="subh-dev">Web Developer</p>
+      <p class="developer-txt2">Shekhar Sharma</p>
+<p class="subh-dev">Software Developer</p>
       <div class="logo-dev">
        <ul class="list-inline">
             <li class="list-inline-item"><a href="https://www.linkedin.com/in/shekhar-sharma-624615224" target="_blank"><i class="fa-brands fa-linkedin-in icon-dev"></i></a></li>
@@ -55,6 +55,16 @@
          </ul>
       </div></div>
 
+      <div  class="developer-box3" >
+      <p class="developer-txt3">Nawang Lama</p>
+<p class="subh-dev">Assistant Professor</p>
+      <div class="logo-dev">
+       <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://in.linkedin.com/in/nawang-lama-44b129219" target="_blank"><i class="fa-brands fa-linkedin-in icon-dev"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank"><i class="fa-brands fa-github icon-dev"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank"><i class="fa-brands fa-instagram icon-dev"></i></a></li>
+         </ul>
+      </div></div>
 
 </body>
 </html>
